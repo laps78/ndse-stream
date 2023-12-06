@@ -1,5 +1,5 @@
 module.exports = {
-  coin: () => {
+  throwCoin: () => {
     const fatum = Math.random();
     if (fatum >= 0.5) return "орел";
     return "решка";
